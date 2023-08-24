@@ -2,7 +2,7 @@
   <div class="column">
     <div class="rsc">
       <div class="rsc-greetings">
-        <svg src="" alt="robot">
+        <img src="../assets/svg/robot.svg" alt="robot">
         <p>Welcome to chatbot!</p>
       </div>
       <div class="rsc-documentation">
@@ -32,8 +32,10 @@ export default {
 .rsc-greetings {
   display: flex;
 }
-.rsc-greetings svg {
+.rsc-greetings img {
   padding: 6px;
+  width: 46px;
+  height: 46px;
 }
 .rsc-greetings p {
   animation: 0.3s ease 0s 1 normal forwards running Lmuha;
