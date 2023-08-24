@@ -31,7 +31,7 @@ export default {
 .app__container {
   display: flex;
   justify-content: space-around;
-  min-height: 100vh
+  min-height: 100vh;
 
 
 }

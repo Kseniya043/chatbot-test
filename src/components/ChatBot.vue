@@ -9,7 +9,7 @@
         <p>Check out the documentation!</p>
       </div>
       <div class="rsc-start">
-        <p>Go it!</p>
+        <p>Got it!</p>
       </div>
     </div>
   </div>
@@ -19,6 +19,10 @@
 export default {
   name: "ChatBot"
 }
+
+let sayHi = function sayHi() {
+}
+setTimeout(sayHi, 1000);
 </script>
 
 <style>
@@ -28,6 +32,7 @@ export default {
   font-family: monospace;
   margin-top: 2px;
   padding-top: 6px;
+  height: 420px;
 }
 .rsc-greetings {
   display: flex;
@@ -58,20 +63,22 @@ export default {
   color: rgb(255, 255, 255);
   font-size: 14px;
   max-width: 50%;
-  margin: -8px 0px 10px 46px;
+  margin: -8px 0px 10px 58px;
   padding: 12px;
 }
 .rsc-start {
   align-items: flex-end;
   display: flex;
+  padding: 0 6px;
+  margin: 2px 2px;
 }
 .rsc-start p {
   animation: 0.3s ease 0s 1 normal forwards running Lmuha;
   background: rgb(110, 72, 170);
-  border-radius: 0px 18px 18px;
+  border-radius: 18px 18px;
   color: rgb(255, 255, 255);
   font-size: 14px;
-  margin: -5px 0px 10px 20px;
+  margin: 0;
   padding: 10px;
 }
 </style>
